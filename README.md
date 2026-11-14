@@ -3,6 +3,8 @@
 ## 📌 Project Overview
 This project expands a local enterprise cybersecurity homelab (hosted on VirtualBox) by implementing a centralized Identity and Access Management (IAM) pipeline. I successfully federated a Windows Server 2025 Active Directory Domain Controller with a Keycloak Identity Provider (IdP) hosted on Ubuntu 22.04 via Docker. 
 
+[Read the Full Incident Report on Medium](https://medium.com/@pompey.lamont01/defeating-javas-sslhandshakefailed-secure-ldaps-federation-with-keycloak-and-active-directory-217f2d5da1e0?postPublishedType=initial)
+
 To ensure strict zero-trust principles, unencrypted LDAP (Port 389) was bypassed entirely in favor of strictly encrypted LDAPS (Port 636) using a custom Enterprise Root Certificate Authority.
 
 ## 🏗️ Architecture & Environment
